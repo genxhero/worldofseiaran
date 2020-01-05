@@ -14,6 +14,11 @@ const CrescentCoast = () => {
         <h2 className="region-section-title"> Nations</h2>
         <h3 className="region-subsection-title"> Gaille</h3>
         <h3 className="region-subsection-title"> Dukedom of St. Tevas</h3>
+        <h3 className="region-subsection-title"> Dragonlands</h3>
+        <h3 className="region-subsection-title"> Port Crescent</h3>
+        <h3 className="region-subsection-title"> Radiant Citadel</h3>
+
+
 
     </div>
     )
