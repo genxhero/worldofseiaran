@@ -7,12 +7,24 @@ const pages = {"midlands": <Midlands />, "crescentcoast": <CrescentCoast />}
 
 const Regions = () => {
     const [currentRegion, setRegion] = useState("midlands");
+    const selectRegion = (event) =>{
+        const region = event.target.getAttribute("name")
+        setRegion(region);
+     }
 
     return (
     <div className="regions-page">
         <div className="regions-nav">
-            <span className={`regions-navlink-${currentRegion === "midlands" ? "active" : "inactive"}`} name="midlands">Midlands</span>
-            <span className={`regions-navlink-${currentRegion === "crescentcoast" ? "active" : "inactive"}`} name="crescentcoast">Crescent Coast</span>
+            <span className={`regions-navlink-${currentRegion === "midlands" ? "active" : "inactive"}`} 
+              name="midlands"
+              onClick={selectRegion}>
+                  Midlands
+            </span>
+            <span className={`regions-navlink-${currentRegion === "crescentcoast" ? "active" : "inactive"}`} 
+              name="crescentcoast"
+              onClick={selectRegion}>
+                  Crescent Coast
+            </span>
         </div>
         <h1>Regions Index</h1>
         <div className="region-content">

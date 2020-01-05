@@ -23,7 +23,21 @@ module.exports = {
                         presets: ['@babel/env', '@babel/react']
                     }
                 },
-            }
+            },
+            {
+                test: /\.scss$/,
+                use: [
+                  {
+                    loader: 'style-loader'
+                  },
+                  {
+                    loader: 'css-loader'
+                  },
+                  {
+                    loader: 'sass-loader'
+                  }
+                ]
+              }
         ]
     },
     mode:'development',
