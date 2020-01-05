@@ -6,7 +6,7 @@ import {withRouter} from 'react-router';
 const pages = {"midlands": <Midlands />, "crescentcoast": <CrescentCoast />}
 
 const Regions = () => {
-    const [currentRegion, setRegion] = useState("midlands");
+    const [currentRegion, setRegion] = useState("crescentcoast");
     const selectRegion = (event) =>{
         const region = event.target.getAttribute("name")
         setRegion(region);
