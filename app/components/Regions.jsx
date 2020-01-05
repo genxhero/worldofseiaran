@@ -10,6 +10,10 @@ const Regions = () => {
 
     return (
     <div className="regions-page">
+        <div className="regions-nav">
+            <span className={`regions-navlink-${currentRegion === "midlands" ? "active" : "inactive"}`} name="midlands">Midlands</span>
+            <span className={`regions-navlink-${currentRegion === "crescentcoast" ? "active" : "inactive"}`} name="crescentcoast">Crescent Coast</span>
+        </div>
         <h1>Regions Index</h1>
         <div className="region-content">
           {pages[currentRegion]}
