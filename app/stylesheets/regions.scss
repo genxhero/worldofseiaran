@@ -1,3 +1,10 @@
 .regions-page {
     background:skyblue;
+    display: flex;
+}
+
+.regions-nav {
+    display: flex;
+    flex-direction: column;
+    background: blue;
 }

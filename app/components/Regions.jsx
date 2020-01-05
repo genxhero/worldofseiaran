@@ -15,6 +15,7 @@ const Regions = () => {
     return (
     <div className="regions-page">
         <div className="regions-nav">
+        <h1>Regions Index</h1>
             <span className={`regions-navlink-${currentRegion === "midlands" ? "active" : "inactive"}`} 
               name="midlands"
               onClick={selectRegion}>
@@ -26,7 +27,6 @@ const Regions = () => {
                   Crescent Coast
             </span>
         </div>
-        <h1>Regions Index</h1>
         <div className="region-content">
           {pages[currentRegion]}
         </div>
