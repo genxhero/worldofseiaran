@@ -1,10 +1,35 @@
 .regions-page {
     background:skyblue;
     display: flex;
+    justify-content: space-between;
 }
 
 .regions-nav {
     display: flex;
     flex-direction: column;
     background: blue;
+    width: 20rem;
+    text-align: center;
+    margin-right: 2rem;
+}
+
+.regions-nav > h1 {
+    color: white;
+    text-decoration: underline;
+}
+
+.regions-navlink-active {
+    font-weight: bold;
+    border: 2px solid white;
+    color: white;
+    font-size: medium;
+    font-family: sans-serif;
+}
+
+.regions-navlink-inactive {
+    font-weight: 400;
+    border: 2px solid transparent;
+    color: white;
+    font-size: medium;
+    font-family: sans-serif;
 }
