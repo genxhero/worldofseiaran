@@ -39,8 +39,16 @@
     text-decoration: underline;
 }
 
-p {
+.region-nation {
     background: lightblue;
     padding: 1rem;
     border-radius: 2px;
+}
+
+.bold {
+    font-weight: bolder;
+}
+
+body {
+    font-family: sans-serif;
 }
