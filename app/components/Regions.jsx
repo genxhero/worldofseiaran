@@ -1,12 +1,17 @@
-import React from 'react';
-import { Switch, Route, BrowserRouter} from 'react-router-dom';
+import React, {useState} from 'react';
+import Midlands from './regions/Midlands';
+import CrescentCoast from './regions/CrescentCoast';
+import {withRouter} from 'react-router';
+
+const pages = [<Midlands />, <CrescentCoast />]
 
 const Regions = () => {
-    <Switch>
-        <Route exact path = "/regions/crescentcoast" component={CrescentCoast} />
-        <Route exact path = "/regions/midlands" component={Midlands} />
-
-    </Switch>
+    const [currentRegion, setRegion] = useState(0);
+    <div className="regions-page">
+        <h1>Regions Index</h1>
+        {pages[currentRegion]}
+    </div>
+   
 }
 
-export default Regions;
+export default withRouter(Regions);
