@@ -15,7 +15,8 @@ const REGIONS = {
         name: "Crescent Coast",
         overview: "A heavily settled region surrounding a bay (or a sea depending on whom you ask)roughly the shape of a crescent moon.  Legend has it that the Dragon Empress used her significant power to flood the lands surrounding her castle in order to create the ultimate moat full of horrors from the depths.  Over the centuries the number of monsters in the bay has decreased, but will most likely never be depleted.",
         nations: [
-            {name: "Gaille",
+            {
+            name: "Gaille",
             overview: "The most prosperous kingdom on the Crescent Coast, it was founded in the early days of the Fourth Age by heroes tasked with mopping up what was left of The Dragon Empress' forces.  The symbol of Gaille is a winged rapier over a sky blue background.  ",
             places: [
                 {name: "Loupblanc", description: "Capitol of Gaille, offcially, though the coastal city of Parseilles is more influential.  The city is shrouded in mystery, with fog-choked streets, haunting architecture, and sightings of terrible creatures that are more than just rumors."},
@@ -23,10 +24,17 @@ const REGIONS = {
             ],
             people: [
                 {name: "Gabrielle Carmanet", description: "Victor of the Second War of Wings and ruler of Gaille."},
-                {name: "Poppy Greenbottle", description: "Spymaster and royal food expert and one of the queen's closest friends.",}
+                {name: "Poppy Greenbottle", description: "Spymaster and royal food expert and one of the queen's closest friends."},
                 {name: "Guillarme", description: "Veteran paladin and leader of the royal guard."}
             ]
+        },
+        {
+            name: "The Emerald Vale",
+            overview: "",
+            places: [],
+            people: []
         }
+
         ]
     }
 }
