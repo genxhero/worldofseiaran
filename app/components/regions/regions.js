@@ -30,13 +30,29 @@ const REGIONS = {
         },
         {
             name: "The Emerald Vale",
-            overview: "",
-            places: [],
-            people: []
+            overview: "Of the lucky few humans who ever see a dragon in their life times, the majority of them dwell in this lush valley in the heart of the Dragonlands.  With one notable exception, the people who live in the Emerald vale live in small towns and villages, some under the protection of good dragons and others under the dominion of an evil dragon. ",
+            places: [
+                {name: "Scalsang City",description: "The first (and so far only) fully organized and fortified human city in the Emerald Vale.  It started out as a small village, but eventually donations by one Valkair Scalsang (from whom the city derives its name) caused rapid expansion and the formation of a city-state."},
+                {name: ""}
+            ],
+            people: [
+                {name: "Patrick Scaslang", description: "Thane of Scalsang City, Valkair's direct descendant."},
+            ]
         }
 
         ]
     }
+}
+
+const NATION_SHAPE = {
+    name: "",
+    overview: "",
+    places: [
+        {name: "", description: ""}
+    ],
+    people: [
+        {name: "", description: ""}
+    ]
 }
 
 export default REGIONS;
