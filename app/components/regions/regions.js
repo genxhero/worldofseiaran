@@ -69,6 +69,16 @@ const REGIONS = {
             people: [
                 {name: "Gruff XI", description: "King of Gwynhar, known for his strength and general recklessness."}
             ]
+        },
+        {
+            name: "Dukedom of St. Tevas",
+            overview: "In the year 600 5A, the kingdom of Alleman fell to the Cyrillian empire.  Some citizens who managed to escape built a new home for themeselves on the Crescent Coast.  The dukedom derives its name from the high priest of Heironeous, Tevas, who slew the Dark Lord of Dreadmoore and enabled their escape in the first place.  Originally just known as Tevasland, it became an official dukedom of Alleman when the kingdom's Cyrillian occupation was driven out (and by that point the deceased priest had been declared a saint and had actually ascended to demigod status).",
+            places: [
+                {name: "Avon", description: "Large town.  Main port and seat of power of the Dukedom."}
+            ],
+            people: [
+                {name: "Earnest Kent", description: "Duke of St. Tevas, a decent enough leader but not without his noble quirks."}
+            ]
         }
 
 
