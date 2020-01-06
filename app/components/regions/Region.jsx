@@ -42,3 +42,5 @@ const Region = (props) => {
     </div>
     )
 }
+
+export default Region;
