@@ -59,6 +59,16 @@ const REGIONS = {
                 {name: "Highlord Ardence XXVIII", description: "A fierce paladin and proven dragon slayer, she is the twenty-eighth highlord to bear the name of the order's founder.  As head of the Radiant Order she is in charge of the citadel's administration and defense. "},
                 {name: "Sir Darien Forces", description: "Captain of the city guard.  While neither a paladin nor a member of the order he is loyal to their cause through and through."}
             ]
+        },
+        {
+            name: "Gwynhar",
+            overview: "A kingdom founded by barbaric invaders, Gwynhar was initially openly hostile to her surrounding neighbors.  During the third (and final) War of the Crescent Coast some two centuries after her founding an opportunistic horde of orcs and goblins attacked – the two sides of the war joined forces, obliterated the forces of darkness, and signed a peace treaty which remains to this day.  Gwynhar nonetheless remains the most martially inclined of the Crescent Coast nations, with fortified towns and outposts throughout.",
+            places: [
+                {name: "Caer Gwyn", description: "Small city.  It is one of the main ports along the coastal trade route.  Situated at the end of a deep cove, its harbor is fairly well-defended against sea based attackers.  A series of guard towers protects the cove's mouth; enemy ships would essentially be funneled into a kill zone.  The town itself is likewise heavily fortified with every new addition being surrounded by concentric battlements."}
+            ],
+            people: [
+                {name: "Gruff XI", description: "King of Gwynhar, known for his strength and general recklessness."}
+            ]
         }
 
 
