@@ -40,13 +40,24 @@ const REGIONS = {
             ]
         },
         {
-            name: "",
-            overview: "",
+            name: "Port Crescent",
+            overview: "A major independent mercantile city and surrounding communities.",
+            places: [
+                {name: "Port Crescent", description: "A trading port under nobody's authority but the mercantile companies who operate within it.  It can be a rough place, despite the proximity of the Radiant Order."}
+            ],
+            people: [
+                {name: "", description: ""}
+            ]
+        },
+        {
+            name: "The Radiant Citadel",
+            overview: "A fortified city on a hill not very far from Port Crescent – some would even consider the two to be the same settlement given their symbiotic bond.  It is the headquarters of the Radiant Order but paladins of all brotherhoods are welcome within her walls.  There is a temple to just about every lawful good deity but the Hall of Heironeous is by far the largest and most heavily fortified.  The Radiant Citadel was built by Lady Ardence, one of the seven companions who defeated the Dragon Empress almost five thousand years prior.  The Radiant Order is unique in that it actually doesn't require its paladins to follow a specific deity – its members include worshipers of Bahamut, Heironeous, Helm, Tyr, Cuthbert, and even demigods of valor such as St. Tevas.  The leader of the Radiant Order is the  Highlord, an especially gifted paladin chosen by divine decree upon the death or retirement of the last one.  When taking up the mantle of Highlord, the paladin takes on a new name  – those capable of drawing the Platinum Sword from the Stone of Valor have the distinct honor of being permitted to use the name Ardence (if female) or Arden (if male). ",
             places: [
                 {name: "", description: ""}
             ],
             people: [
-                {name: "", description: ""}
+                {name: "Highlord Ardence XXVIII", description: ""},
+                {name: "Sir Darien Forces", description: ""}
             ]
         }
 
