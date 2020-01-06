@@ -56,8 +56,8 @@ const REGIONS = {
                 {name: "", description: ""}
             ],
             people: [
-                {name: "Highlord Ardence XXVIII", description: ""},
-                {name: "Sir Darien Forces", description: ""}
+                {name: "Highlord Ardence XXVIII", description: "A fierce paladin and proven dragon slayer, she is the twenty-eighth highlord to bear the name of the order's founder.  As head of the Radiant Order she is in charge of the citadel's administration and defense. "},
+                {name: "Sir Darien Forces", description: "Captain of the city guard.  While neither a paladin nor a member of the order he is loyal to their cause through and through."}
             ]
         }
 
