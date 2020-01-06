@@ -2,9 +2,11 @@ import React, {useState} from 'react';
 import Midlands from './regions/Midlands';
 import CrescentCoast from './regions/CrescentCoast';
 import {withRouter} from 'react-router';
+import REGIONS from './regions/regions';
+import Region from './regions/Region';
 
-const pages = {"midlands": <Midlands />, "crescentcoast": <CrescentCoast />}
-
+// const pages = {"midlands": <Midlands />, "crescentcoast": <CrescentCoast />}
+const pages = REGIONS;
 const Regions = () => {
     const [currentRegion, setRegion] = useState("crescentcoast");
     const selectRegion = (event) =>{
@@ -28,7 +30,7 @@ const Regions = () => {
             </span>
         </div>
         <div className="region-content">
-          {pages[currentRegion]}
+          <Region region={pages[currentRegion]}/>
         </div>
     </div>
     )
