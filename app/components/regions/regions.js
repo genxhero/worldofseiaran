@@ -79,6 +79,16 @@ const REGIONS = {
             people: [
                 {name: "Earnest Kent", description: "Duke of St. Tevas, a decent enough leader but not without his noble quirks."}
             ]
+        },
+        {
+            name: "Arkmouth Strand",
+            overview: "A mire-riddled coastal region between Gaille and Gwynhar; a place where people who go missing never return.  Very few live along the coast, and none but the truly insane dwell within the swamp's interior.  It's positively swarming with hags, ogres, fish men, and the undead remnants of armies that fell there.",
+            places: [
+                {name: "Arkmouth", description: "Large town.  Mostly a fishing settlement though it is well known as a haven of outcasts and those that wish to remain off the grid so to speak.  There is more than mere human scum and villainy here, for something dark lurks within the murky brackish waters beneath the piers and pylons."}
+            ],
+            people: [
+                {name: "Amaril Gelb", description: "Self proclaimed king of Arkmouth, though he has little power and is little more than a madman"}
+            ]
         }
 
 
