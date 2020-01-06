@@ -14,7 +14,7 @@ const REGIONS = {
     "crescentcoast": {
         name: "Crescent Coast",
         overview: "A heavily settled region surrounding a bay (or a sea depending on whom you ask)roughly the shape of a crescent moon.  Legend has it that the Dragon Empress used her significant power to flood the lands surrounding her castle in order to create the ultimate moat full of horrors from the depths.  Over the centuries the number of monsters in the bay has decreased, but will most likely never be depleted.",
-        nations: [
+        locales: [
             {
             name: "Gaille",
             overview: "The most prosperous kingdom on the Crescent Coast, it was founded in the early days of the Fourth Age by heroes tasked with mopping up what was left of The Dragon Empress' forces.  The symbol of Gaille is a winged rapier over a sky blue background.  ",
@@ -38,13 +38,24 @@ const REGIONS = {
             people: [
                 {name: "Patrick Scaslang", description: "Thane of Scalsang City, Valkair's direct descendant."},
             ]
+        },
+        {
+            name: "",
+            overview: "",
+            places: [
+                {name: "", description: ""}
+            ],
+            people: [
+                {name: "", description: ""}
+            ]
         }
+
 
         ]
     }
 }
 
-const NATION_SHAPE = {
+const LOCALE_SHAPE = {
     name: "",
     overview: "",
     places: [
