@@ -1,5 +1,5 @@
 import React from 'react';
-import { Switch, Route, Router} from 'react-router-dom';
+import { Switch, Route, Router, BrowserRouter} from 'react-router-dom';
 import Welcome from './components/Welcome';
 import Regions from './components/Regions';
 import { createHashHistory } from 'history';
