@@ -18,8 +18,9 @@
     text-decoration: underline;
 }
 
+
 .region-content {
-    width: inherit;
+    width: fit-content;
 }
 
 .regions-navlink-active {
@@ -28,6 +29,8 @@
     color: white;
     font-size: medium;
     font-family: sans-serif;
+    margin-right: 1rem;
+    margin-left: 1rem;
 }
 
 .regions-navlink-inactive {
@@ -36,7 +39,11 @@
     color: white;
     font-size: medium;
     font-family: sans-serif;
+    margin: .2rem;
+    margin-right: 1rem;
+
 }
+
 
 .region-section-title {
     text-align: center;
