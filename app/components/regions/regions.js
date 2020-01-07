@@ -93,6 +93,23 @@ const REGIONS = {
 
 
         ]
+    }, 
+    "midlands": {
+        name: "The Midlands",
+        overview: "Wide and verdant plains offering limitless adventuring opportunity.",
+        locales: [
+            {
+                name: "Alleman",
+                overview: "Prosperous kingdom known for its far-reaching diplomacy.",
+                places: [
+                    {name: "Atles", description: "The Citadel of St. Atles the Liberator is her full name, she is known as a popular destination for adventurers."}
+                ],
+                people: [
+                    {name: "King Gary III", description: "Monarch of Alleman"},
+                    {name:"Rylian Zaradon", description: "Court wizard to the king himself, he is an elven mage/swordsman rumored to be from another world.  He among other heroes helped free Alleman from Cyrillian occupation."}
+                ]
+            }
+        ]
     }
 }
 
@@ -105,6 +122,12 @@ const LOCALE_SHAPE = {
     people: [
         {name: "", description: ""}
     ]
+}
+
+const REGION_SHAPE = {
+    name: "",
+    overview: "",
+    locales: []
 }
 
 export default REGIONS;
