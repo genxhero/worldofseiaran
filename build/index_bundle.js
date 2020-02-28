@@ -477,8 +477,8 @@ var REGIONS = {
         description: "A trading port under nobody's authority but the mercantile companies who operate within it.  It can be a rough place, despite the proximity of the Radiant Order."
       }],
       people: [{
-        name: "",
-        description: ""
+        name: "Robert Fellham III",
+        description: "Wealthy and pompous head of the Fellham and Sons Trading Company; controls most shipping lanes throughout the Crescent Coast."
       }]
     }, {
       name: "The Radiant Citadel",
